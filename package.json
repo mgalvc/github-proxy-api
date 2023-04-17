@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/mgalvc/github-proxy-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"

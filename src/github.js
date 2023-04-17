@@ -1,3 +1,5 @@
+const fetch = require("node-fetch");
+
 const callApi = async (endpoint) => {
   const githubRes = await fetch(`https://api.github.com/${endpoint}`, {
     headers: {
